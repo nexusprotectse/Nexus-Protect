@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #121625;
+    color: #F8F9FA;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom Palette & Theme Utilities from screen.png */
+.bg-brandNavy { background-color: #1B204A; }
+.bg-brandNavyLight { background-color: #242B63; }
+.bg-brandGreen { background-color: #3A9D5D; }
+.bg-brandNeon { background-color: #81B838; }
+.bg-brandOrange { background-color: #C36428; }
+.bg-brandPurple { background-color: #4D2C5E; }
+.bg-brandOffWhite { background-color: #F8F9FA; }
+.bg-brandCharcoal { background-color: #121625; }
+.bg-brandDarker { background-color: #0B0E17; }
+
+.text-brandNavy { color: #1B204A; }
+.text-brandNavyLight { color: #242B63; }
+.text-brandGreen { color: #3A9D5D; }
+.text-brandNeon { color: #81B838; }
+.text-brandOrange { color: #C36428; }
+.text-brandPurple { color: #4D2C5E; }
+.text-brandOffWhite { color: #F8F9FA; }
+.text-brandCharcoal { color: #121625; }
+.text-brandDarker { color: #0B0E17; }
+
+.border-brandNavy { border-color: #1B204A; }
+.border-brandNavyLight { border-color: #242B63; }
+.border-brandGreen { border-color: #3A9D5D; }
+.border-brandNeon { border-color: #81B838; }
+.border-brandOrange { border-color: #C36428; }
+.border-brandPurple { border-color: #4D2C5E; }
+
+.shadow-glow-neon {
+  box-shadow: 0 0 25px rgba(129, 184, 56, 0.45);
+}
+.shadow-glow-navy {
+  box-shadow: 0 10px 40px -10px rgba(27, 32, 74, 0.8);
+}
+.shadow-glow-orange {
+  box-shadow: 0 0 25px rgba(195, 100, 40, 0.4);
+}
+
+.tech-grid-bg {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.radial-glow-hero {
+  background: radial-gradient(circle at 50% 30%, rgba(58, 157, 93, 0.15) 0%, rgba(27, 32, 74, 0.6) 40%, rgba(18, 22, 37, 1) 100%);
+}
+
+.radial-glow-accent {
+  background: radial-gradient(circle at center, rgba(129, 184, 56, 0.08) 0%, transparent 70%);
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Nexus Protect - Seguridad Electrónica & Telecomunicaciones",
+  "short_name": "Nexus Protect",
+  "description": "Soluciones integrales de seguridad electrónica, CCTV IP, control de accesos, detección de incendios y telecomunicaciones B2B.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1322",
+  "theme_color": "#0f1322",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "security", "utilities"],
+  "shortcuts": [
+    {
+      "name": "CCTV & Videovigilancia IP",
+      "url": "#soluciones",
+      "description": "Solución de videovigilancia y analítica 4K"
+    },
+    {
+      "name": "Control de Accesos",
+      "url": "#soluciones",
+      "description": "Sistemas biométricos y control vehicular"
+    },
+    {
+      "name": "Detección de Incendios",
+      "url": "#soluciones",
+      "description": "Detección temprana y normatividad NFPA"
+    },
+    {
+      "name": "Control de Intrusión",
+      "url": "#soluciones",
+      "description": "Sensores perimetrales y monitoreo 24/7"
+    }
+  ]
+}

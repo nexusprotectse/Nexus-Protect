@@ -1,0 +1,8 @@
+{
+  "name": "Nexus Protect - Seguridad Electrónica & Telecomunicaciones B2B",
+  "description": "Landing page B2B de alta conversión para proyectos de seguridad electrónica, CCTV IP 4K con IA, control de accesos biométrico y redes industriales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
